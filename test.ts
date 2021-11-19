@@ -1,4 +1,4 @@
-import { openBlender, openExplorer, openTerminal } from "./mod.ts";
+import { openExplorer, openTerminal } from "./mod.ts";
 import os from "https://deno.land/x/dos@v0.11.0/mod.ts";
 import { dirname, fromFileUrl, join } from "https://deno.land/std/path/mod.ts";
 import { assertEquals } from "https://deno.land/std/testing/asserts.ts";

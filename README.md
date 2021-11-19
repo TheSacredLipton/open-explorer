@@ -1,5 +1,5 @@
 
-windowsでコマンドプロンプト開いたりエクスプローラー開いたりBlender開いたりするやつ
+windowsでコマンドプロンプト開いたりエクスプローラー開いたりするやつ
 
 ## Start
 
@@ -16,13 +16,12 @@ deno test --allow-run --allow-env --unstable
 ## example
 
 ```
-import { openBlender, openExplorer, openTerminal } from "https://pax.deno.dev/TheSacredLipton/open-explorer";
+import { openExplorer, openTerminal } from "https://pax.deno.dev/TheSacredLipton/open-explorer";
 import { join } from "https://deno.land/std/path/mod.ts";
 import os from "https://deno.land/x/dos@v0.11.0/mod.ts";
 
 const homeDir = os.homeDir();
 if (homeDir) {
   openExplorer(join(homeDir, "Documents"));
-  openBlender(join( homeDir, "Documents", "o.blend"));
 }
 ```

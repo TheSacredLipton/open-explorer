@@ -17,11 +17,3 @@ export const openExplorer = async (path: string) => {
     console.log("open explorer");
   }
 };
-
-export const openBlender = async (path: string) => {
-  if (os.platform() === "windows") {
-    await exec("cmd.exe /C start " + path);
-  } else {
-    console.log("open Blender");
-  }
-};
