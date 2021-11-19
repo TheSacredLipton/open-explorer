@@ -10,7 +10,7 @@ deno run --watch --allow-run --allow-env --unstable app.ts
 ## example
 
 ```
-import {openExplorer, openBlender, openTerminal} from "https://pax.deno.dev/TheSacredLipton/open-expolorer";
+import {openExplorer, openBlender, openTerminal} from "https://pax.deno.dev/TheSacredLipton/open-explorer";
 import os from "https://deno.land/x/dos@v0.11.0/mod.ts";
 
 const homeDir = os.homeDir();
